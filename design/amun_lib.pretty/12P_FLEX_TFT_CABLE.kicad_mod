@@ -1,0 +1,141 @@
+(footprint "12P_FLEX_TFT_CABLE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.83 -6.68 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "595daa39-4c51-481b-a740-b8436ad4bc21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "12P_FLEX_TFT_CABLE"
+		(at 0.83 -5.18 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e6ea3fe1-4a42-4087-b09c-86cd4e5b3045")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.83 -6.18 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ca1182c-af10-4b23-941c-bb5ab45af551")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.83 -6.18 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01f61bc9-60f8-4653-be45-e7f75d584be7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 0)
+		(end 24 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "398712f0-0db4-4acb-97a8-df1bc834ca2e")
+	)
+	(fp_line
+		(start 0 27)
+		(end 0 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e246467b-0c31-44a2-913d-8f665c594eea")
+	)
+	(fp_line
+		(start 0 27)
+		(end 3.5 27)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a16bd6c-8b13-4930-9f4b-d92f39434b5f")
+	)
+	(fp_line
+		(start 3.5 27)
+		(end 3.5 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "7484de81-d9ce-4bd9-9284-67ed6c171c25")
+	)
+	(fp_line
+		(start 19 6.5)
+		(end 19 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "146b1e86-1fb6-4aaa-86a5-0f0ed04e7b37")
+	)
+	(fp_line
+		(start 24 0)
+		(end 24 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae0ff69b-6d73-4bf6-920d-5b205a7192c5")
+	)
+	(fp_line
+		(start 24 6.5)
+		(end 3.5 6.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dcc92f79-f636-4511-bd8a-a6758d67985f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.83 -3.68 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6a631be4-723f-431a-99e6-90036c3be5a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

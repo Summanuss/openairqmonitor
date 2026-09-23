@@ -1,0 +1,204 @@
+(footprint "ER-TFT018-3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 8.91 1.23 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "594808b3-1b59-4cc2-a316-90ee1b3abffa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ER-TFT018-3"
+		(at 9.61 2.83 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b8e11a99-c94d-4e61-9bdc-fd5165b9ae73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.59 -0.97 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "062cc0f3-c00a-43bf-b03e-390f518dc04f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.59 -0.97 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "099ce076-2ac6-4f32-85ac-672048460427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.59 -0.97)
+		(end -1.59 4.03)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f33617f2-a9e0-4e12-9fa7-4d8b674cc068")
+	)
+	(fp_line
+		(start -1.59 -0.97)
+		(end 3.41 -0.97)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b5bc50f-bd98-4b8e-899d-e2305af6e3ff")
+	)
+	(fp_line
+		(start -1.59 32.23)
+		(end -1.59 27.23)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6a3cfc5c-2c8c-4df7-a3b8-00414d691067")
+	)
+	(fp_line
+		(start -1.59 32.23)
+		(end 3.41 32.23)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af01abf0-e193-40af-a4ae-dd6b612cf1af")
+	)
+	(fp_line
+		(start 41.11 -0.97)
+		(end 36.11 -0.97)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b6f5794f-fd6c-43e6-b884-72a065015c8a")
+	)
+	(fp_line
+		(start 41.11 -0.97)
+		(end 41.11 4.03)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "58e0b820-73a0-4ea8-8e42-5c272e1ed016")
+	)
+	(fp_line
+		(start 41.11 32.23)
+		(end 36.11 32.23)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9aec7f27-57b2-4e14-bcca-980b1dd8cb0e")
+	)
+	(fp_line
+		(start 41.11 32.23)
+		(end 41.11 27.23)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1b45019-87ba-4191-8800-7b2e3f342013")
+	)
+	(fp_rect
+		(start -1.59 -0.97)
+		(end 41.11 32.23)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "52c24ffc-6b3e-4a9a-a297-1b62109d1bdf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 9.61 4.43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63700b21-afd6-48e6-a31c-fe818ecba398")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "d0bfe6ac-8e7e-490b-8083-3f9dad6c22e5")
+		(name "Display_KEEPOUT")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.59 -0.97) (xy -1.59 32.23) (xy 41.11 32.23) (xy 41.11 -0.97)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "D:/progetti/AMUN/modello_3D/Step_Esportati/Amun_Case-Display.step"
+		(offset
+			(xyz 19.91 -15.53 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
