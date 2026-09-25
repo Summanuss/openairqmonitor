@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0"
+      "sch_revision": "1.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -775,6 +775,10 @@
     [
       "f789504e-db55-4fb7-bc36-693daf4109c9",
       "USB"
+    ],
+    [
+      "c8eae91a-b773-4cab-b0b0-dcdf535a7b89",
+      "Display"
     ]
   ],
   "text_variables": {},

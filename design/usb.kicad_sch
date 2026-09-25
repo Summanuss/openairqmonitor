@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power supply schematic")
 		(date "2026-09-23")
-		(rev "1.0")
+		(rev "1.1")
 	)
 	(lib_symbols
 		(symbol "AZ1117CH-3_3TRG1:AZ1117CH-3.3TRG1"
@@ -2326,22 +2326,10 @@
 		(uuid "99295728-f695-4c25-8c06-f2f3e730c8c8")
 	)
 	(junction
-		(at 81.28 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23847521-a14b-44e8-822b-7c6a2719737b")
-	)
-	(junction
 		(at 74.93 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43157357-2cee-415d-9f2d-5e6c022d93ef")
-	)
-	(junction
-		(at 86.36 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c0e01d3-b3a3-42a7-b9fc-736f02449605")
 	)
 	(junction
 		(at 80.01 119.38)
@@ -2458,12 +2446,28 @@
 		(uuid "26ec97b4-7ea1-4b39-a6b9-43f22726389f")
 	)
 	(no_connect
+		(at 46.99 41.91)
+		(uuid "48885f87-1271-46b3-8e93-ec02060c1bae")
+	)
+	(no_connect
 		(at 77.47 41.91)
 		(uuid "601669f5-c8cb-4b6b-afe2-eb913b4b43cb")
 	)
 	(no_connect
+		(at 46.99 44.45)
+		(uuid "8b908cbf-fc58-4dcb-973c-97eadfe67d7a")
+	)
+	(no_connect
+		(at 77.47 39.37)
+		(uuid "a10fcd2f-348c-49f1-a970-c11b1a64ed98")
+	)
+	(no_connect
 		(at 46.99 46.99)
 		(uuid "bf170638-0bdd-4d06-87b6-60e0910fd9d9")
+	)
+	(no_connect
+		(at 77.47 36.83)
+		(uuid "c5f4ed3b-e16b-4f31-a230-4d18641bfec9")
 	)
 	(no_connect
 		(at 77.47 52.07)
@@ -2478,16 +2482,6 @@
 			(type default)
 		)
 		(uuid "05704df1-1367-4227-b158-7511b9a785b4")
-	)
-	(wire
-		(pts
-			(xy 44.45 57.15) (xy 81.28 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "073efb77-0c39-4572-8014-89ae5aa47025")
 	)
 	(wire
 		(pts
@@ -2521,16 +2515,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 59.69) (xy 86.36 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11212ae0-3e0f-4df0-b6cb-9dc6bd83777c")
-	)
-	(wire
-		(pts
 			(xy 41.91 115.57) (xy 41.91 119.38)
 		)
 		(stroke
@@ -2548,16 +2532,6 @@
 			(type default)
 		)
 		(uuid "14251e6f-d45a-42c0-8998-2230ad8bf76e")
-	)
-	(wire
-		(pts
-			(xy 86.36 59.69) (xy 86.36 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "173a7ee6-fadb-452e-af82-2dac1dd56043")
 	)
 	(wire
 		(pts
@@ -2598,16 +2572,6 @@
 			(type default)
 		)
 		(uuid "1f56c22d-1acf-4d8d-960d-0a2933e6416c")
-	)
-	(wire
-		(pts
-			(xy 44.45 44.45) (xy 44.45 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26154697-f6a2-4f5a-baab-0db4d554f83f")
 	)
 	(wire
 		(pts
@@ -2701,16 +2665,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 36.83) (xy 90.17 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55832ab3-0fff-43ca-99f1-39575822f0cb")
-	)
-	(wire
-		(pts
 			(xy 39.37 39.37) (xy 46.99 39.37)
 		)
 		(stroke
@@ -2741,16 +2695,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 57.15) (xy 81.28 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "735c5758-bf2f-437b-a602-75be9dabc241")
-	)
-	(wire
-		(pts
 			(xy 123.19 93.98) (xy 125.73 93.98)
 		)
 		(stroke
@@ -2778,26 +2722,6 @@
 			(type default)
 		)
 		(uuid "78a3a420-09d8-4bd9-ba5e-feb1bc6fa20b")
-	)
-	(wire
-		(pts
-			(xy 46.99 41.91) (xy 41.91 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "794ee0f1-0831-4cd4-b38c-8e7af2df47bb")
-	)
-	(wire
-		(pts
-			(xy 77.47 36.83) (xy 86.36 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bb050e3-0477-4853-a703-fc385ff8be90")
 	)
 	(wire
 		(pts
@@ -2891,16 +2815,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 41.91) (xy 41.91 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0bf2812-c52c-4a9a-97da-f26b36940bd8")
-	)
-	(wire
-		(pts
 			(xy 80.01 99.06) (xy 90.17 99.06)
 		)
 		(stroke
@@ -2958,26 +2872,6 @@
 			(type default)
 		)
 		(uuid "bc011120-da42-4fe4-9164-39cbd61ce7e0")
-	)
-	(wire
-		(pts
-			(xy 81.28 39.37) (xy 102.87 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4716846-e68f-412f-8fa8-fe4a52162d08")
-	)
-	(wire
-		(pts
-			(xy 77.47 39.37) (xy 81.28 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c53e0504-3618-4acd-877c-194f4c931759")
 	)
 	(wire
 		(pts
@@ -3088,16 +2982,6 @@
 			(type default)
 		)
 		(uuid "ee97f8f4-7b06-422c-99e7-a00f8bae56ae")
-	)
-	(wire
-		(pts
-			(xy 46.99 44.45) (xy 44.45 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "effb9ce6-7984-4be1-98ed-f47cc91ad3bb")
 	)
 	(hierarchical_label "3.3V"
 		(shape output)
@@ -3782,118 +3666,6 @@
 			(project "AMUN"
 				(path "/a3863a5a-8df9-4770-8748-58e8adda6826/f789504e-db55-4fb7-bc36-693daf4109c9"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 90.17 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "4716b356-3517-4100-95e4-f2d6b8d20cf5")
-		(property "Reference" "TP1"
-			(at 92.71 32.2579 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DP"
-			(at 92.71 34.7979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 95.25 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 90.17 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 90.17 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 90.17 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 90.17 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "150f1d19-7a2a-4e51-8b97-5750c0e2c09b")
-		)
-		(instances
-			(project "AMUN"
-				(path "/a3863a5a-8df9-4770-8748-58e8adda6826/f789504e-db55-4fb7-bc36-693daf4109c9"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5221,118 +4993,6 @@
 			(project "AMUN"
 				(path "/a3863a5a-8df9-4770-8748-58e8adda6826/f789504e-db55-4fb7-bc36-693daf4109c9"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 102.87 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "c8f41475-2f1d-41fd-9d72-072d056a01ba")
-		(property "Reference" "TP2"
-			(at 105.41 34.7979 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DN"
-			(at 105.41 37.3379 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 107.95 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 102.87 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 102.87 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 102.87 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 102.87 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "07e5e4d1-a950-4a40-abb1-f2473563e0f0")
-		)
-		(instances
-			(project "AMUN"
-				(path "/a3863a5a-8df9-4770-8748-58e8adda6826/f789504e-db55-4fb7-bc36-693daf4109c9"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
