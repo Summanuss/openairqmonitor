@@ -1,0 +1,234 @@
+(footprint "SHT40AD1BR2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SHT40-AD1B-R2")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(uuid "8f02ab0c-0365-47a8-96ed-f56be2790322")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SHT40AD1BR2"
+		(at 0 -0.044 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "267aac78-989d-4d8f-81d4-aa709356d4e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29cd6bd6-0151-4175-a004-8abb19ff0755")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd4fe745-328e-4427-b2c1-6f4c79f086f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.212 -1.075)
+		(end -1.212 -1.075)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae6c9cf4-ecbe-4ad6-8456-b8f0e57616d2")
+	)
+	(fp_line
+		(start -1.087 -1.075)
+		(end -1.087 -1.075)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3905a1b0-e626-4d02-a8fd-52a189e84066")
+	)
+	(fp_arc
+		(start -1.212 -1.074)
+		(mid -1.15 -1.137)
+		(end -1.087 -1.075)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df9b22d4-6289-459e-9dc2-59ac4ceb24c7")
+	)
+	(fp_arc
+		(start -1.087 -1.074)
+		(mid -1.15 -1.012)
+		(end -1.212 -1.075)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4999db36-b666-493e-8f47-f0393ec5bc90")
+	)
+	(fp_line
+		(start -1.375 -1.05)
+		(end 1.375 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4808d7ab-45b8-4d7d-b3ec-3bf7d4156326")
+	)
+	(fp_line
+		(start -1.375 1.05)
+		(end -1.375 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "80daabff-a28f-40c3-9765-cbc7baa688df")
+	)
+	(fp_line
+		(start 1.375 -1.05)
+		(end 1.375 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dcf44d6b-689f-49fa-9cd9-0d9df14c6010")
+	)
+	(fp_line
+		(start 1.375 1.05)
+		(end -1.375 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bdbdb14c-b973-4607-bb21-e3d723f60c2c")
+	)
+	(fp_line
+		(start -0.75 -0.75)
+		(end 0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be42ef67-2063-4e3e-8f27-0f91e722bbf5")
+	)
+	(fp_line
+		(start -0.75 -0.375)
+		(end -0.375 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2920c502-656a-4891-bafa-58ff87d6b9c4")
+	)
+	(fp_line
+		(start -0.75 0.75)
+		(end -0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d239b6c-1175-4583-b5ea-0f7b78892abe")
+	)
+	(fp_line
+		(start 0.75 -0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74087a4f-499f-496d-b544-8327e323866c")
+	)
+	(fp_line
+		(start 0.75 0.75)
+		(end -0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08bf074d-d537-4360-a746-4549c7cb8b97")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.044 0)
+		(layer "F.Fab")
+		(uuid "b9cdedca-4bb3-4ccf-a597-a4419df506f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7 -0.4 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "107dc6cb-577b-492a-a969-58f71ea447cd")
+	)
+	(pad "2" smd rect
+		(at -0.7 0.4 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6302d72d-240f-484a-a6bd-7edc331836df")
+	)
+	(pad "3" smd rect
+		(at 0.7 0.4 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e29f7cb7-6632-4474-b80f-eb88c74cac02")
+	)
+	(pad "4" smd rect
+		(at 0.7 -0.4 90)
+		(size 0.3 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "20fd1a76-b2aa-4f69-a46b-9fe366b09927")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_PROJ_3DMOD_DIR}/LIB_SHT40-AD1B-R2/SHT40-AD1B-R2/3D/SHT40-AD1B-R2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
