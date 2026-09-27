@@ -5,11 +5,22 @@
 	(layer "F.Cu")
 	(descr "VESM (SOT-723)")
 	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at -0.353 -0.068 0)
+		(layer "F.SilkS")
+		(uuid "0f33dbb9-ace3-4f48-959e-b407b070b466")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
 	(property "Value" "VESM(SOT-723)"
 		(at -0.353 -0.068 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "07921382-ed1a-4002-818b-d7aa5b194520")
+		(uuid "e3ceee32-fba4-4906-a761-fc75983512b4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "599359f9-1864-4a21-b067-86f14243f100")
+		(uuid "c80b0a15-5ae2-4aa4-a969-764c9a963d1d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,21 +43,10 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8103facb-0e8d-4fc0-98d8-ffcd38579d66")
+		(uuid "efd112e9-f8f9-48db-bc24-58f27c20347a")
 		(effects
 			(font
 				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "Reference" "Q**"
-		(at -0.353 -0.068 0)
-		(layer "F.SilkS")
-		(uuid "09015a29-b1aa-40fb-998e-5fda49412cfa")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
 			)
 		)
 	)
@@ -60,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b5ada1fe-a20d-4f73-8016-bf35d61e82a5")
+		(uuid "c3f14f87-282c-4c37-b0d6-a695b72e195c")
 	)
 	(fp_line
 		(start -0.6 -0.4)
@@ -70,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "92470d6f-a1d8-41ae-8092-98fd2cbff12b")
+		(uuid "160f6e49-f64f-4211-aa49-a7b6b646b575")
 	)
 	(fp_line
 		(start 0.6 -0.4)
@@ -80,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2d3ecc37-27a9-4242-b60b-bb17c7012b3d")
+		(uuid "9df205e1-97d8-4b04-a507-2a452bf519c8")
 	)
 	(fp_line
 		(start 0.6 -0.4)
@@ -90,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "97742260-7191-400b-94e8-282957cecce3")
+		(uuid "d4f67376-fcfe-44a0-8e15-a93e889e0879")
 	)
 	(fp_circle
 		(center -0.424 1.009)
@@ -101,7 +101,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "870fbdb9-61ba-4970-a005-32a4630a0e28")
+		(uuid "74fbe281-1dba-45ac-8eda-de04c9bafd00")
 	)
 	(fp_line
 		(start -0.6 -0.4)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "558c5c70-7aec-401c-acd4-b01b326843a0")
+		(uuid "f6427dce-c9e6-4fea-8267-8a9ce04d5b9a")
 	)
 	(fp_line
 		(start -0.6 0.4)
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cb16c406-76d0-4a38-991b-207d0276fa87")
+		(uuid "16fcf4ee-86c4-4c2e-8ec0-8cedf5e3f652")
 	)
 	(fp_line
 		(start 0.6 -0.4)
@@ -131,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ae1d4957-7148-42f5-9c1c-7d6f9bcf7267")
+		(uuid "38b63b4e-55c7-46fe-b4a5-3c39a5f04d21")
 	)
 	(fp_line
 		(start 0.6 0.4)
@@ -141,12 +141,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a92c70a5-e9ba-45c7-b443-92fbf635c612")
+		(uuid "de0bf353-29dc-4ff3-a37a-16a3b668bf0b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.353 -0.068 0)
 		(layer "F.Fab")
-		(uuid "526bc9ec-4fe7-446b-85ba-de293dcf647f")
+		(uuid "ab9de8cc-1371-4d99-b505-33c129f5f894")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -158,22 +158,22 @@
 		(at -0.4 0.575)
 		(size 0.4 0.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9826e166-9648-4240-a6b5-a2382536d487")
+		(uuid "129bd129-47bc-487f-8695-fe8675431d30")
 	)
 	(pad "2" smd rect
 		(at 0.4 0.575)
 		(size 0.4 0.45)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "0c1ebe31-cc54-406c-ab5b-078700cc22ab")
+		(uuid "b80cee23-8e03-4dc5-8cce-4ecc87f3585c")
 	)
 	(pad "3" smd rect
 		(at 0 -0.575 90)
 		(size 0.45 0.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9599f33b-e7a7-4571-a20d-156d676759e1")
+		(uuid "627f04bc-ecab-49b6-a416-8675099d6964")
 	)
 	(embedded_fonts no)
-	(model "D:/progetti/AMUN/hardware/ECAD_Files/LIB_SSM3K16FV,L3F/SSM3K16FV,L3F/3D/SSM3K16FV,L3F.stp"
+	(model "${CUSTOM_PROJ_3DMOD_DIR}/LIB_SSM3K16FV,L3F/SSM3K16FV,L3F/3D/SSM3K16FV,L3F.stp"
 		(offset
 			(xyz 0 0 0)
 		)

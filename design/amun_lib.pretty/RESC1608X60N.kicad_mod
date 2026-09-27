@@ -5,22 +5,11 @@
 	(layer "F.Cu")
 	(descr "RESC1608X60N")
 	(tags "Resistor")
-	(property "Reference" "R**"
-		(at -3.4544 -1.27 0)
-		(layer "F.SilkS")
-		(uuid "753a21f8-c0a9-4c4e-bc67-77cd191938d9")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-			)
-		)
-	)
 	(property "Value" "RESC1608X60N"
 		(at -3.4544 -1.27 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a08399bf-8735-4f78-8378-0f897c55110a")
+		(uuid "ec36c583-064f-400a-a136-0245c2c9d462")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +21,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6d318d00-e2ac-49c2-82e3-46ca8824ccf3")
+		(uuid "5b0cc4c1-e59e-4d04-bd43-300de2ca9a4d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,10 +32,21 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "212ee5c4-a845-49bf-a674-e98a800179fc")
+		(uuid "266b0ae3-24e2-4e2c-8669-95f15a37464c")
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Reference" "R**"
+		(at -3.4544 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "bae05c4d-01ef-429e-bf3c-41c62a2c3d5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
 			)
 		)
 	)
@@ -60,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "32745b66-a242-4c96-b02b-a327b46acffd")
+		(uuid "75368c8b-d7e4-4c58-9cab-ac09017c4ce8")
 	)
 	(fp_line
 		(start 0.127 -0.4826)
@@ -70,12 +70,12 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "28ed0075-60ee-41b7-954e-e04bcf5e4c5a")
+		(uuid "15e143b9-bc69-4517-9732-d045d51c30c2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -3.4544 -1.27 0)
 		(layer "F.Fab")
-		(uuid "7fa51513-a7d1-408a-a87b-69b6c552b117")
+		(uuid "9a630d08-9340-4bcc-81ae-dc036016ea66")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -87,16 +87,16 @@
 		(at -0.8382 0)
 		(size 0.762 0.9398)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "41746c7d-21a2-4f75-a56c-76892c46fd50")
+		(uuid "3f03e6cb-73da-4ba1-baa8-c133a2b14e04")
 	)
 	(pad "2" smd rect
 		(at 0.8382 0)
 		(size 0.762 0.9398)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "2b59df05-67d5-46e0-adeb-2e9028950356")
+		(uuid "b55afd60-0e8e-4ad1-8777-b412e9963520")
 	)
 	(embedded_fonts no)
-	(model "D:/progetti/AMUN/hardware/ECAD_Files/LIB_RT0603FRE07100RL/RT0603FRE07100RL/3D/RT0603FRE07100RL.stp"
+	(model "${CUSTOM_PROJ_3DMOD_DIR}/LIB_RT0603FRE07100RL/RT0603FRE07100RL/3D/RT0603FRE07100RL.stp"
 		(offset
 			(xyz 0 0 0)
 		)
