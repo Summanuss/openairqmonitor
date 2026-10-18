@@ -11,22 +11,27 @@
 
 
 ## Table of Contents
-- [Overview](#overview)
-- [Description](#description)
-- [Key Features](#key-features)
-- [Technical Specifications](#technical-specifications)
-- [Project Structure](#project-structure)
-- [Hardware Documentation](#hardware-documentation)
-- [Pinout & Connectors](#pinout--connectors)
-- [Getting Started](#getting-started)
-- [Ordering & Fabrication Guidelines](#ordering--fabrication-guidelines)
-- [Test Firmware](#test-firmware)
-- [Known Issues & Future Improvements](#known-issues--future-improvements)
-- [Safety Notes](#safety-notes)
-- [Revision History](#revision-history)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-- [Contact](#contact)
+- [Open AirQ Monitor](#open-airq-monitor)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Description](#description)
+  - [Key Features](#key-features)
+  - [Technical Specifications](#technical-specifications)
+  - [Project Structure](#project-structure)
+  - [Hardware Documentation](#hardware-documentation)
+  - [Pinout \& Connectors](#pinout--connectors)
+  - [Getting Started (WIP)](#getting-started-wip)
+    - [Opening the KiCad project](#opening-the-kicad-project)
+    - [Generating fabrication files](#generating-fabrication-files)
+    - [Flashing the firmware](#flashing-the-firmware)
+  - [Ordering \& Fabrication Guidelines](#ordering--fabrication-guidelines)
+  - [Test Firmware](#test-firmware)
+  - [Known Issues \& Future Improvements](#known-issues--future-improvements)
+  - [Safety Notes](#safety-notes)
+  - [Revision History](#revision-history)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+  - [Contact](#contact)
 
 
 ## Overview
@@ -41,7 +46,7 @@ VOC sensor. It's goal is to be a consumer / gadget product which you can keep in
 rather than a professional industrial solution to monitor ambient parameters.
 Given that, I decided to use an LCD TFT RGB display so the firmware application can be more
 "fancy" and "nice". <br>
-As an hobbistic project, I wanted it be as cheap and easy to design as possible. <br>
+As an hobbistic project, I wanted it to be as cheap and easy to design as possible. <br>
 This can be seen as a starting point to build a more advanced product with more functionality,
 so feel free to fork the repo and customize it as you like!
 
@@ -59,7 +64,7 @@ so feel free to fork the repo and customize it as you like!
 | Parameter | Value |
 | :--- | :--- |
 | **Input Voltage** | 5V |
-| **Typical Current Draw** | TODO (e.g. ~xx mA idle / xx mA peak) |
+| **Typical Current Draw** | **TODO** (e.g. ~xx mA idle / xx mA peak) |
 | **Microcontroller / Core** | STM32L431CCT6TR |
 | **Microcontroller / RAM** | 64 KB |
 | **Microcontroller / FLASH** | 256 KB |
@@ -68,7 +73,6 @@ so feel free to fork the repo and customize it as you like!
 | **TFT Display** | ER-TFT018-3 |
 | **Dimensions** | 60x40 mm |
 | **Mounting Holes** | M2 |
-| **PCB Layers** | 2 |
 
 
 ## Project Structure
@@ -113,7 +117,8 @@ For the complete pinout check the schematic.
 ### Generating fabrication files
 1. Open the PCB editor in KiCad.
 2. Export Gerbers, drill files, and Pick & Place using KiCad's built-in plotter (or the AISLER plugin, see [Ordering & Fabrication Guidelines](#ordering--fabrication-guidelines)).
-3. ...
+3. Upload the generated files in your chosen manufacturer website (es. AISLER)
+4. Check the correctness of the layout in the preview before ordering!
 
 ### Flashing the firmware
 1. Connect an SWD programmer (e.g. ST-Link V2/V3) to the `SWDIO`/`SWCLK`/`SWO` pins.
