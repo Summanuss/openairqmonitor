@@ -560,7 +560,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "../fabrication/gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
