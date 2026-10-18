@@ -20,7 +20,7 @@
   - [Project Structure](#project-structure)
   - [Hardware Documentation](#hardware-documentation)
   - [Pinout \& Connectors](#pinout--connectors)
-  - [Getting Started (WIP)](#getting-started-wip)
+  - [Getting Started](#getting-started)
     - [Opening the KiCad project](#opening-the-kicad-project)
     - [Generating fabrication files](#generating-fabrication-files)
     - [Flashing the firmware](#flashing-the-firmware)
@@ -107,12 +107,12 @@ For the complete pinout check the schematic.
 | PB3 | SWO | Serial Wire Protocol Output Signal | Out |
 
 
-## Getting Started (WIP)
+## Getting Started
  
 ### Opening the KiCad project
 1. Install [KiCad 10.0](https://www.kicad.org/download/) or later.
 2. Clone this repository.
-3. ...
+3. Custom symbol files should be automatically embedded (KiCad versione > 6). If this is not the case, open an issue an I'll fix it ASAP.
 
 ### Generating fabrication files
 1. Open the PCB editor in KiCad.
